@@ -1,0 +1,29 @@
+.pe_loginregister button:hover{
+    background-color: #007683;
+
+}
+
+.peproduct_stockdetails:hover img{
+    filter:brightness();
+    background-color: #e5faf5;
+}
+
+.peproduct_mfdetails:hover img{
+    filter: brightness();
+    background-color: #e5faf5;
+}
+
+.peproduct_loandetails:hover img{
+    filter:brightness();
+    background-color: #e5faf5;
+}
+
+.peproduct_futuredetails:hover img{
+    filter: brightness();
+    background-color: #e5faf5;
+}
+
+.viewallproduct_container .text:hover{
+    text-decoration: underline;
+
+}

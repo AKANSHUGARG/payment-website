@@ -1,0 +1,396 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.pe_top{
+    width:100%;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.pe_logo{
+    width: 369px;
+    height: 79px;
+    display: flex;
+    align-items: center;
+}
+
+.pe_logo img{
+    width: 148px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.pe_searchcontainer{
+    border: 1px solid #ccc;
+    width: 443px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 5px;
+    box-shadow: -3px -3px 5px rgb(148, 148, 148,0.2),3px 3px 5px rgb(148, 148, 148,0.2);
+}
+
+.pe_searchcontainer input{
+    margin: 0px 10px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.pe_searchcontainer i{
+    font-size: 15px;
+    color: rgb(148,148,148);
+}
+
+.pe_loginregister{
+    width: 146px;
+    height: 79px;
+    display: flex;
+    align-items: center;
+}
+
+.pe_loginregister button{
+    background-color: #00B6CC;
+    border: none;
+    width: 175px;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+.pe_button_container{
+    width: 362px;
+    height: 55px;
+}
+
+.pe_started_button{
+    width: 200px;
+    height: 55px;
+    background-color:  #00B6CC;
+    border: none;
+    font-size: 30px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.pay{
+    display: flex;
+    font-size: 39px;
+    color: #44475b;
+    /* font-weight: 500; */
+
+}
+
+.slidder_vertical{
+    text-indent: 15px;
+    height: 80px;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+
+}
+
+.slidder_vertical span{
+    display: flex;
+    flex-direction: column;
+    animation: verticalSlide 10s infinite alternate;
+    animation-delay: 3s;
+    position: relative;
+    height: 80px;
+}
+
+@keyframes verticalSlide{
+
+    0%{
+        bottom: 0;
+    }
+
+    17%{
+        bottom:-70px;
+    }
+
+    34%{
+        bottom:-140px;
+    }
+
+    68%{
+        bottom:-210px;
+    }
+
+    85%{
+        bottom:-280px;
+    }
+
+    100%{
+        bottom:-350px;
+    }
+}
+
+
+.recharge_color{
+    color:#ffb616;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.flight_color{
+    color: #d2ab66;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.cable_color{
+    color:#5367ff;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.broadband_color{
+    color: #eb5b3c;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.gas_color{
+    color:#00d09c;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.electricity_color{
+    color: #18d024;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
+
+.pe_middle_col2{
+    display: flex; 
+}
+
+.pe_middle_col2 a{
+    width: 180px;
+    height: 140px;
+    box-shadow: 3px 6px 24px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #44475b;
+    background-color: #fff;
+
+}
+
+.middle_part{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    margin: 30px 80px;
+}
+
+
+.pe_middle_left_lext{
+    margin: 30px 0px;
+    font-size: 18px;
+    color: #44475b;
+    letter-spacing: 0.5px;
+    width: 400px;
+    line-height: 30px;
+}
+
+
+.peproduct{
+    margin: 20px 100px;
+}
+
+.ourproduct_text{
+    background-color: #ecedef;
+    color: #44475b;
+    letter-spacing: 0.3px;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    min-width: 50px;
+    width: fit-content;
+}
+
+.yourmoneyyourchoice_text{
+     font-size: 35px;
+     color: #44475b;
+     line-height: 25px;
+     letter-spacing: 0.2px;
+     font-weight: 500;
+     margin: 30px 0px 70px 0px;
+}
+
+.peproduct_navbar{
+    display: flex;
+}
+
+.peproduct_stockdetails,.peproduct_mfdetails,.peproduct_loandetails,.peproduct_futuredetails{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 55px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.peproduct_stockdetails > div,.peproduct_mfdetails > div,.peproduct_loandetails > div,.peproduct_futuredetails > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: #44475b;
+    margin: 0px 10px;
+}
+
+.peproduct_stockdetails > img,.peproduct_mfdetails > img,.peproduct_loandetails > img,.peproduct_futuredetails > img{
+    width: 30px;
+    height: 30px;
+    filter: grayscale(1);
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+.peproduct_display{
+    height: 355px;
+    margin: 100px 0px;
+}
+
+.zerotext{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.peproduct_stockdetails_display_rightpart h2{
+    font-size: 28px;
+    color: #323441;
+
+     
+}
+
+.stockdetails_text{
+    font-size: 16px;
+    color: #7c7e8c;
+    line-height: 26px;
+    width: 400px;
+    margin: 20px 0px;
+}
+
+.peproduct_button_createaccountfree button{
+    width: 205px;
+    height: 45px;
+    color: white;
+    background-color: #00B6CC;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.peproduct_stockdetails_display{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.viewallproduct_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00B6CC;
+}
+
+.viewallproduct_container .text{
+    color: #00B6CC;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.navbarunderlineactive{
+    height: 3px;
+    width: 200px;
+    background-color: #00B6CC;
+    position: relative;
+    transform: translate(-250px,60px);
+    transition: 2s;
+
+}
+
+
+.stockactive.active1{
+    filter:brightness();
+    background-color: #e5faf5;
+}
+
+.mfactive.active2{
+    filter: brightness();
+    background-color: #e5faf5;
+}
+
+.loanactive.active3{
+    filter:brightness();
+    background-color: #e5faf5;
+}
+
+.futureactive.active4{
+    filter: brightness();
+    background-color: #e5faf5;
+}
+
+.container_new{
+    margin: 100px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container_new img{
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255, 0.6);
+    transition: all ease-in-out 0.5s;
+    background-color: black;
+}
+
+.container_new img:hover {
+    width: 40%;
+
+}
